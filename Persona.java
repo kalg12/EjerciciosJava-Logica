@@ -14,7 +14,11 @@ public class Persona {
         }
     }
 
-    void descanar(){
-
+    void descansar(boolean estaCansado){
+        if(estaCansado){
+            System.out.println("Vete a dormir 🥱");
+        } else {
+            System.out.println("Sigue prácticando código...👨🏻‍💻");
+        }
     }
 }
