@@ -13,4 +13,8 @@ public class Persona {
             System.out.println("Eres un menor de edad 😕");
         }
     }
+
+    void descanar(){
+
+    }
 }
